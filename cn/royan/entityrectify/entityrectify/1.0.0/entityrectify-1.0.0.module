@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.royan.entityrectify",
+    "module": "entityrectify",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "entityrectify-1.0.0.jar",
+          "url": "entityrectify-1.0.0.jar",
+          "size": 42210,
+          "sha512": "54371a4262e444e5e3749da62900128ece65caf3a3668e6bb4e0c6bd0776a635b08947b84ba6486c2171294389c15a472cf60793f204b4f52480da2f34f4eeb7",
+          "sha256": "83848b3e2523acd4ecfce763f7a9997a35622eaad098a75a35ba65c597ddd3ae",
+          "sha1": "9b3693f02b2aa7dcaafa8c8401a21bd5f94e2eb8",
+          "md5": "a0ed10480f2bcfb025dd9c30192ae681"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-mappings-parser",
+          "version": {
+            "requires": "0.3.0+build.17"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "entityrectify-1.0.0.jar",
+          "url": "entityrectify-1.0.0.jar",
+          "size": 42210,
+          "sha512": "54371a4262e444e5e3749da62900128ece65caf3a3668e6bb4e0c6bd0776a635b08947b84ba6486c2171294389c15a472cf60793f204b4f52480da2f34f4eeb7",
+          "sha256": "83848b3e2523acd4ecfce763f7a9997a35622eaad098a75a35ba65c597ddd3ae",
+          "sha1": "9b3693f02b2aa7dcaafa8c8401a21bd5f94e2eb8",
+          "md5": "a0ed10480f2bcfb025dd9c30192ae681"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "entityrectify-1.0.0-sources.jar",
+          "url": "entityrectify-1.0.0-sources.jar",
+          "size": 33515,
+          "sha512": "1b80daee48d189070a4476f34536685ce03bf6287cea36ed8e47f7ca9ff5dd2c1ad82d8ac99b7113809c0fcec9e8fa46ee113d373799ceb0f3dc73a1a99913b5",
+          "sha256": "98f88cb124ecd2d0a9ff0fc1f63d1ca1e7bce2954f8068f77ba3eaaa9dcdd0f3",
+          "sha1": "aedc8236910336bb816a68e40ebc3e0567ed55a3",
+          "md5": "ddc48cc34f33a469b0df157058dba3c8"
+        }
+      ]
+    }
+  ]
+}

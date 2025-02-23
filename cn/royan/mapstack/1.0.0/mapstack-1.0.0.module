@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.royan",
+    "module": "mapstack",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-mappings-parser",
+          "version": {
+            "requires": "0.3.0+build.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mapstack-1.0.0.jar",
+          "url": "mapstack-1.0.0.jar",
+          "size": 1385246,
+          "sha512": "f79889c1498e0fa033e00ad26a8db2cf805e7c369bba93ea8dc67da245c5091a7c693e71162495d8b0e9aac9703558f75cd873c4cae602b554948f234ddd7e47",
+          "sha256": "e8942df530b1f8b64b3b6018515876a5c0d2bd1f3ba8b22973d534c9df3c14db",
+          "sha1": "3fc4543deeb3d99f52751b6fa17ee571f2e16b55",
+          "md5": "871a413ce068d3bad33e0e8b46eee040"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-mappings-parser",
+          "version": {
+            "requires": "0.3.0+build.17"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mapstack-1.0.0.jar",
+          "url": "mapstack-1.0.0.jar",
+          "size": 1385246,
+          "sha512": "f79889c1498e0fa033e00ad26a8db2cf805e7c369bba93ea8dc67da245c5091a7c693e71162495d8b0e9aac9703558f75cd873c4cae602b554948f234ddd7e47",
+          "sha256": "e8942df530b1f8b64b3b6018515876a5c0d2bd1f3ba8b22973d534c9df3c14db",
+          "sha1": "3fc4543deeb3d99f52751b6fa17ee571f2e16b55",
+          "md5": "871a413ce068d3bad33e0e8b46eee040"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mapstack-1.0.0-sources.jar",
+          "url": "mapstack-1.0.0-sources.jar",
+          "size": 16115,
+          "sha512": "3fbdf9c3655bfffdcc5b14153efa7f85d4524aa8b64aaf8385a85a2b2968a1aea5832c6b4009ec686d6343447d5a94e125657d0a345c958ebf6fc1af1b459fde",
+          "sha256": "8d26ad73f20427af3734e55af923d95c5627d1ebb28c6f8dddd9edb7029946b1",
+          "sha1": "685a3da886f62d06c5a02763a2f9f2cbfe848c82",
+          "md5": "8ae4991fff6de5a45e411e4c163eb94e"
+        }
+      ]
+    }
+  ]
+}
